@@ -20,7 +20,7 @@ Below are the test cases with output:
 
 Write a function nextServerNumber(Array).
 
-Part 2:
+# Part 2:
 
 Suppose a company has offices in different regions like north, south, etc. Company employees request servers based on a region that they are working in. Write allocation(use Part 1) and deallocation functions. Allocation will check the next server number to be assigned in the specific region the user has requested and return it.
 Deallocate will deallocate the server passed to it.
