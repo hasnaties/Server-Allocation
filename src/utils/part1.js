@@ -38,8 +38,7 @@ const nextServerArray = (array) => {
     }
 
     // -- returning Next Server --
-    delete temp;
     return result;
 }
 
-module.exports = nextServerArray;
+module.exports = { nextServerArray };

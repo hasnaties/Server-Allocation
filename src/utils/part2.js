@@ -1,4 +1,4 @@
-const nextServerArray = require('./part1')
+const { nextServerArray } = require('./part1')
 
 /* 
     A Global array to keep track for both
@@ -57,5 +57,13 @@ const deallocate = (server) => {
     // -- Removing Server from allocated array.
     if (serverIndex !== -1) {
         serverArray.splice(serverIndex, 1)[0]
+        return true;
     }
+
+    // return false;
+}
+
+module.exports = {
+    allocate,
+    deallocate
 }
