@@ -10,6 +10,7 @@ app.use(bodyParser.json())
 app.use(cors())
 
 const router = express.Router();
+app.use(express.static(path.join(__dirname,'../angular-app')))
 app.use(router)
 
 router.get('/api/allocate', async (req, res) => {
