@@ -1,7 +1,7 @@
 # Server-Allocation
 The solution is written and tested on Node.js.
 
-# Problem: Write a code for Server Allocation:
+# Problem: Write a code for Server Allocation.
 
 # Part 1:
 
